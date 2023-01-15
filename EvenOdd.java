@@ -5,7 +5,7 @@ public class EvenOdd {
         Scanner myObj = new Scanner(System.in); // Create scanner object
         System.out.println("Enter an integer");
 
-        Integer userInt = myObj.nextInt(); // Read user's integer
+        int userInt = myObj.nextInt(); // Read user's integer
         if (userInt % 2 == 0) {
             System.out.println("The integer " + userInt+ " is even.");
         } else {
@@ -14,3 +14,4 @@ public class EvenOdd {
 
     }
 }
+
